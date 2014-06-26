@@ -29,21 +29,24 @@ class ErrorHandlingService
 			$messages[] = $i++ . ": " . $e->getMessage();
 		} while ($e = $e->getPrevious());
 
-		$log = "Exception:n" . implode("n", $messages);
-		$log .= "nTrace:n" . $trace;
+		$log = "\nException:n" . implode("n", $messages);
+		$log .= "\nnTrace:n". "\n" . $trace;
 
 		$this->logger->warn($log);
 	}
-	function logError(\ErrorException $e)
+	function logError($error)
 	{
-		$trace = $e->getTraceAsString();
-		$i = 1;
-		do {
-			$messages[] = $i++ . ": " . $e->getMessage();
-		} while ($e = $e->getPrevious());
+// 		$trace = $e->getTraceAsString();
+// 		$i = 1;
+// 		do {
+// 			$messages[] = $i++ . ": " . $e->getMessage();
+// 		} while ($e = $e->getPrevious());
 	
-		$log = "Error:n" . implode("n", $messages);
-		$log .= "nTrace:n" . $trace;
+// 		$log = "Error:n" . implode("n", $messages);
+// 		$log .= "nTrace:n" . $trace;
+		$log = "\nError: " . $error['type']
+				."\Message: ".$error['message']
+				."\nFile: ".$error['file']."on line number: ". $error['line'];
 	
 		$this->logger->err($log);
 	}
@@ -58,16 +61,16 @@ class Module
 		
         //add for log
         $eventManager->attach('dispatch.error', function($event){
-        	$exception = $event->getResult()->exception;
-        	$error = $event->getResult()->error;
+        	$exception = $event->getResult()->exception;  
+        	$error = error_get_last();
         	if ($exception) {
         		$sm = $event->getApplication()->getServiceManager();
         		$service = $sm->get('ApplicationServiceErrorHandling');
         		$service->logException($exception);
         	}
-        	if($event->isError()){
+        	if(true){
         		$sm = $event->getApplication()->getServiceManager();
-        		$service = $sm->get('ApplicationServiceErrorHandling');
+        		$service = $sm->get('ApplicationServiceErrorHandling');				
         		$service->logError($error);
         	}
         });
