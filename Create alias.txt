@@ -1,12 +1,12 @@
 1/Create Xampp Alias Directory, Link: http://willi.am/blog/2011/02/24/creating-xampp-alias-directories/
 
-
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 Creating XAMPP Alias Directories
 
-If you’ve read my post on adding aliases to WampServer, you may be curious about how to add aliases to XAMPP. While WampServer has a nice (if somewhat buggy) tool for adding Apache aliases, XAMPP does not. Fortunately, creating XAMPP alias directories by hand is pretty easy.
+If youï¿½ve read my post on adding aliases to WampServer, you may be curious about how to add aliases to XAMPP. While WampServer has a nice (if somewhat buggy) tool for adding Apache aliases, XAMPP does not. Fortunately, creating XAMPP alias directories by hand is pretty easy.
 Preparing to Create XAMPP Alias Directories
 
-The first thing you’ll want to do is add an alias directory to your XAMPP install. If you’re running Windows, create the following folder.
+The first thing youï¿½ll want to do is add an alias directory to your XAMPP install. If youï¿½re running Windows, create the following folder.
 
 1
 
@@ -14,9 +14,9 @@ The first thing you’ll want to do is add an alias directory to your XAMPP instal
 
 C:\xampp\apache\conf\alias
 
-Next, you’ll need to change your Apache configuration file. You can find it under C:\xampp\apache\conf\httpd.conf. To make changes, you’ll need to edit it as an administrator. If you’re running Windows Vista or above, your best bet is to open Notepad as an administrator and then open httpd.conf. To open Notepad (or any other application) as an administrator, right-click on it and select “Run as administrator”. You can also launch Notepad as an administrator from the start menu with Ctrl+Shift+Enter while Notepad is selected.
+Next, youï¿½ll need to change your Apache configuration file. You can find it under C:\xampp\apache\conf\httpd.conf. To make changes, youï¿½ll need to edit it as an administrator. If youï¿½re running Windows Vista or above, your best bet is to open Notepad as an administrator and then open httpd.conf. To open Notepad (or any other application) as an administrator, right-click on it and select ï¿½Run as administratorï¿½. You can also launch Notepad as an administrator from the start menu with Ctrl+Shift+Enter while Notepad is selected.
 
-Once you’ve opened httpd.conf, add the following to the end and save it.
+Once youï¿½ve opened httpd.conf, add the following to the end and save it.
 
 1
 
@@ -27,7 +27,7 @@ Include "conf/alias/*"
 Now Apache will look in the alias folder for more configuration files. This way you can add an alias by simply adding a new configuration file to the conf/alias/ folder.
 Creating XAMPP Alias Directories
 
-Let’s add some XAMPP alias directories. Suppose you want to add an alias called “dev”. First, download this alias template file and place it in the alias folder. Rename it to “dev.conf” (or whatever you called your alias). You’ll need to edit the template (again, as an administrator) and replace “DIRECTORY” (it’s there twice) with the path to the alias and “ALIAS” with the name of your alias. In our example, it looks something like this:
+Letï¿½s add some XAMPP alias directories. Suppose you want to add an alias called ï¿½devï¿½. First, download this alias template file and place it in the alias folder. Rename it to ï¿½dev.confï¿½ (or whatever you called your alias). Youï¿½ll need to edit the template (again, as an administrator) and replace ï¿½DIRECTORYï¿½ (itï¿½s there twice) with the path to the alias and ï¿½ALIASï¿½ with the name of your alias. In our example, it looks something like this:
 
 1
 2
