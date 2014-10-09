@@ -1,0 +1,22 @@
+<!DOCTYPE html >
+<html>
+<head>
+    <!--<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>-->
+    <script src="http://code.jquery.com/jquery-1.9.0.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.js"></script>
+	<script src="jquery.alerts.js"></script>
+    <link rel="stylesheet" type="text/css" href="jalert.css"/>
+	<script>
+		function testClick(){
+            $.alerts.dialogClass="style_1"
+            jAlert('This is the custom class called &ldquo;style_1&rdquo;', 'Custom Styles', function() {
+                $.alerts.dialogClass = null; // reset to default
+            });
+		}
+	</script>
+</head>
+<body>
+<input type="button" value="Test" onclick="testClick()" />
+</body>
+
+</html>
