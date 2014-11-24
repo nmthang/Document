@@ -1,0 +1,97 @@
+Ajax
+JSON
+jQuery
+--------------------------------------------------------------------------------------------
+Javascript
+--------------------------------------------------------------------------------------------
+***Array:
+	+ explode(string, 
+	+ split: var arr = str.split(" ")
+	+ 
+var testObject = { 'one': 1, 'two': 2, 'three': 3 };
+***retrieve:
+	for(var key in testObject){
+		console.log('Key: ' + key + ' => ' + testObject[key])
+	}
+***onclick="this.form.submit()"
+	+ document.forms['form_id'].submit()
+***change css:
+	document.getElementById("id").style.display = 'none';
+
+***localStorage:
+	// Put the object into storage
+	localStorage.setItem('testObject', JSON.stringify(testObject));
+	// Retrieve the object from storage
+	var retrievedObject = localStorage.getItem('testObject');
+	console.log('retrievedObject: ', JSON.parse(retrievedObject));
+	
+*** append child to head
+	function appendScript(pathToScript) {
+		var head = document.getElementsByTagName("head")[0];
+		var js = document.createElement("script");
+		js.type = "text/javascript";
+		js.src = pathToScript;
+		head.appendChild(js);
+	}
+***append to first specific element:
+	var eElement; // some E DOM instance
+	var newFirstElement; //element which should be first in E
+	eElement.insertBefore(newFirstElement, eElement.firstChild);
+	***execute function when page loaded.
+	<body onload="myFunction()">
+
+*** Add style use JS: 
+	http://stackoverflow.com/questions/524696/how-to-create-a-style-tag-with-javascript
+
+
+--------------------------------------------------------------------------------------------
+jquery
+--------------------------------------------------------------------------------------------
+***Get class name:
+	var className = $('.myclass').attr('class');
+***Get index:
+	var listItem = document.getElementById( "bar" );
+	alert( "Index: " + $( "li" ).index( listItem ) );
+
+***$('input:checked')
+
+*** Get index of clicked li:
+	function myFunc(){
+				$('li').click(function(){
+					var index = 0;
+					var childs = this.parentNode.childNodes;
+					for (i = 0; i < childs.length;i++) {
+						if(childs[i].tagName == 'LI'){
+							if (this == childs[i]) 
+								break;
+							index = index + 1;
+						}					
+					}	
+					alert(index);
+				})
+			}
+*** Add id 
+	$(this).attr('id', 'ourId');
+   Get id:
+	$(this).attr('id');
+
+***mutiple css: $('#a').css({
+	'border': '5px solid red',
+	'background-color': blue
+})
+***loop throungh list:	$("li").each(function(index){
+	console.log(index);
+})
+***$(obj).parent()
+
+***find():
+	 var name = $(this).find("p:nth-child(2)");	//p tag second child
+***get name attribute of element: 	$("#id").atrr('name')	 
+***get text of element: 		$("#id").text()
+***set text: $('id').text('new text')
+***delegate jQuery
+	$('.select-button').on("click", function(){
+			alert('clicked');
+		});
+*** after(), before():
+	+ $( ".container" ).after( $( "h2" ) );

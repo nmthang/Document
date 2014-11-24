@@ -1,0 +1,15 @@
+letter-spacing:
+word-spacing:
+text-indent: 50px		//(thut dong dong)
+line-height: 10[x		//(chieu cao giua cac dogn).
+text-shadow:5px 5px #FF0000; //tao bong cho chu.
+***position:
+	+ static: default.
+	+ absolute: its parent is element that (not static).
+	+ relative: positioned normal position.
+	+ fixed: browser window.
+***text-transform: uppercase.
+***a:link, a:visited, a:active{text-decorate: none;}
+***display: inline | inline-block | block | table-cell | table-row,....
+***background: url(img.gif) no-repeat scroll right bottom.
+***background-clip: boder-box | padding-box | content-box
