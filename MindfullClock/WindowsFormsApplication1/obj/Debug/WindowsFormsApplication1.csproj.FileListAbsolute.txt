@@ -6,3 +6,12 @@ c:\users\thang\documents\visual studio 2013\Projects\WindowsFormsApplication1\Wi
 c:\users\thang\documents\visual studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
 c:\users\thang\documents\visual studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 c:\users\thang\documents\visual studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+D:\My Documment\GitHub\test\MindfullClock\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\My Documment\GitHub\test\MindfullClock\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\My Documment\GitHub\test\MindfullClock\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+D:\My Documment\GitHub\test\MindfullClock\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\My Documment\GitHub\test\MindfullClock\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\My Documment\GitHub\test\MindfullClock\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+D:\My Documment\GitHub\test\MindfullClock\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+D:\My Documment\GitHub\test\MindfullClock\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\My Documment\GitHub\test\MindfullClock\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
