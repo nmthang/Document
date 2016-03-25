@@ -11,4 +11,11 @@ https://packagecontrol.io/browse/popular
 
 7/ JavaScriptNext
 8/ https://packagecontrol.io/packages/BracketHighlighter
+9/ TrailingSpace
+  { "keys": ["ctrl+shift+t"], "command": "delete_trailing_spaces" }
+  { "keys": ["ctrl+shift+d"], "command": "toggle_trailing_spaces" }
   
+  
+I/ Devtool
+https://mattdesl.svbtle.com/debugging-nodejs-in-chrome-devtools
+https://www.npmjs.com/package/devtool
