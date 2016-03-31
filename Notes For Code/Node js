@@ -1,6 +1,18 @@
+
+I/Node js
+
+
 1/ Source struture
   https://www.terlici.com/2014/08/25/best-practices-express-structure.html
   
 2/ Async module
   http://www.hacksparrow.com/node-js-async-programming.html
   https://github.com/yortus/asyncawait
+  http://masnun.com/2015/11/11/using-es7-asyncawait-today-with-babel.html
+  npm init
+  
+II/ Java script:
+  - check element visible: $('#id').is(":visible")
+  - windown resize demo:
+      http://jsfiddle.net/UqYCr/
+      http://jsfiddle.net/UqYCr/1/
