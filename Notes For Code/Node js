@@ -16,3 +16,21 @@ II/ Java script:
   - windown resize demo:
       http://jsfiddle.net/UqYCr/
       http://jsfiddle.net/UqYCr/1/
+      
+  - clientHeight & offsetHeight & scrollHeight:
+      refer: http://stackoverflow.com/questions/22675126/what-is-offsetheight-clientheight-scrollheight
+      http://jsfiddle.net/shibualexis/yVhgM/3/
+      clientHeight: visible height of content + visible padding
+      offsetHeight: clientHeight + border + scrollbar
+      scrollHeight: clientHeight + non-visible height
+      
+  - box-model:
+      refer: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model
+      padding area:
+          When the content area has a background, color, or image set on it, this will extend into the padding
+          
+  - scrollTop & scrollLeft:
+      refer: http://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_element_scrollleft
+      
+III/ Sublime
+  - https://github.com/Monnoroch/ColorHighlighter
