@@ -35,6 +35,10 @@ II/ Java script:
   - promise
       https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
     http://www.ecma-international.org/ecma-262/6.0/ECMA-262.pdf
+    
+  *Array:
+      - Array.isArray(fruits);
+      - x.constructor.toString().indexOf("Array") > -1;
       
 III/ Sublime
   - https://github.com/Monnoroch/ColorHighlighter
