@@ -32,5 +32,9 @@ II/ Java script:
   - scrollTop & scrollLeft:
       refer: http://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_element_scrollleft
       
+  - promise
+      https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+    http://www.ecma-international.org/ecma-262/6.0/ECMA-262.pdf
+      
 III/ Sublime
   - https://github.com/Monnoroch/ColorHighlighter
