@@ -47,6 +47,10 @@ II/ Java script:
       - Array.isArray(fruits);
       - x.constructor.toString().indexOf("Array") > -1;
       
+  - base64
+      http://jsfiddle.net/xKJB8/3/
+      http://stackoverflow.com/questions/6150289/how-to-convert-image-into-base64-string-using-javascript
+      
 III/ Sublime
   - https://github.com/Monnoroch/ColorHighlighter
   
