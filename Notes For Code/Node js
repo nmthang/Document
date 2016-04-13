@@ -17,6 +17,14 @@ I/Node js
   
 II/ Java script:
   - check element visible: $('#id').is(":visible")
+  - jQuery css:
+      .css({
+         'font-size' : '10px',
+         'width' : '30px',
+         'height' : '10px'
+        });
+  - removeAttr: https://api.jquery.com/removeAttr/
+  
   - windown resize demo:
       http://jsfiddle.net/UqYCr/
       http://jsfiddle.net/UqYCr/1/
