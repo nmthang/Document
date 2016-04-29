@@ -1,0 +1,15 @@
+1/ Register GA
+	Get private key format as .P12 file
+2/Read: Java quickstart for service accounts
+	https://developers.google.com/analytics/devguides/reporting/core/v3/quickstart/service-java#summary_auth
+	
+3/	Download API libraries for GA
+	Link: https://developers.google.com/resources/api-libraries/download/analytics/v3/java
+	
+4/ Add email address's file .P12 into Google Analysis.
+	Goto Admin Tab => User Management
+	Add new email address.
+	
+	Reference:
+		https://developers.google.com/analytics/devguides/reporting/core/v3/reference
+		https://developers.google.com/analytics/devguides/reporting/core/dimsmets
