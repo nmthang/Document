@@ -1,0 +1,28 @@
+**Need to research more about technical**
+1/ Config message source:
+  http://www.mkyong.com/spring/spring-resource-bundle-with-resourcebundlemessagesource-example/
+  http://www.baeldung.com/2012/02/06/properties-with-spring/
+  
+2/ servlet
+  - interceptor: 
+      http://viralpatel.net/blogs/spring-mvc-interceptor-example/
+      
+  - sessionFactory:
+      http://docs.spring.io/autorepo/docs/spring-framework/3.2.16.RELEASE/javadoc-api/org/springframework/orm/hibernate4/LocalSessionFactoryBean.html
+      
+  - validator:
+      http://docs.spring.io/autorepo/docs/spring-framework/3.2.6.RELEASE/javadoc-api/org/springframework/validation/beanvalidation/LocalValidatorFactoryBean.html
+      
+  - example:
+    http://www.javatpoint.com/hibernate-and-spring-integration
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
