@@ -23,7 +23,10 @@
   - create spring source code structure with Maven:
     https://spring.io/blog/2011/01/17/green-beans-getting-started-with-maven-and-spring/
     http://www.mkyong.com/maven/how-to-create-a-web-application-project-with-maven/
-      cmd: mvn archetype:generate -DgroupId=com.mkyong 
+      cmd: $ mvn archetype:generate -DgroupId=com.mkyong 
+	-DartifactId=CounterWebApp 
+	-DarchetypeArtifactId=maven-archetype-webapp 
+	-DinteractiveMode=false 
     
 3/ Beans
   http://docs.spring.io/autorepo/docs/spring/3.2.x/spring-framework-reference/html/beans.html
