@@ -106,3 +106,6 @@ jquery
 		this.id		//get selected id
 	});
 	
+*** 
+	http://ckeditor.com/download
+	
