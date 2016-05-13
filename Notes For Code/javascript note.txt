@@ -7,7 +7,8 @@ Javascript
 ***Array:
 	+ explode(string, 
 	+ split: var arr = str.split(" ")
-	+ 
+	+ array.reverse()
+	+ array.pop()	//get last element
 var testObject = { 'one': 1, 'two': 2, 'three': 3 };
 ***retrieve:
 	for(var key in testObject){
@@ -74,6 +75,9 @@ jquery
 	$(this).attr('id', 'ourId');
    Get id:
 	$(this).attr('id');
+	
+   Remove attribute:
+   	$(this).removeAtrr('id')	//remove attribute id
 
 ***mutiple css: $('#a').css({
 	'border': '5px solid red',
@@ -95,3 +99,10 @@ jquery
 		});
 *** after(), before():
 	+ $( ".container" ).after( $( "h2" ) );
+
+***selectbox change:
+	+ $('#selectBoxId').change(function(){
+		this.value	//get selected value
+		this.id		//get selected id
+	});
+	
