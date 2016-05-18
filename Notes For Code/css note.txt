@@ -13,3 +13,22 @@ text-shadow:5px 5px #FF0000; //tao bong cho chu.
 ***display: inline | inline-block | block | table-cell | table-row,....
 ***background: url(img.gif) no-repeat scroll right bottom.
 ***background-clip: boder-box | padding-box | content-box
+
+*** not allow user change textarea:
+	Refer:http://stackoverflow.com/questions/9382245/how-to-disable-textarea-resizing
+		resize: none;
+		resize: vertical
+		resize: horizontial
+		max-width: 400px
+		min-width: 200px
+		
+** td{
+	align: right
+	valign: top
+}
+
+**
+	float, overflow: hidden: 
+		http://colinaarts.com/articles/the-magic-of-overflow-hidden/
+		http://stackoverflow.com/questions/2062258/floating-stuff-within-a-div-floats-outside-of-div-why
+	appearance: none //not display default combobox
