@@ -32,3 +32,23 @@ text-shadow:5px 5px #FF0000; //tao bong cho chu.
 		http://colinaarts.com/articles/the-magic-of-overflow-hidden/
 		http://stackoverflow.com/questions/2062258/floating-stuff-within-a-div-floats-outside-of-div-why
 	appearance: none //not display default combobox
+	
+- reset style input: 
+	outline: none
+- to <div> wrap content: 
+	float: left
+	
+*** jquery checkbox checked:
+	$(id).is(":checked")
+	
+***BOOTSTRAP***
+	http://stackoverflow.com/questions/24175998/meaning-of-numbers-in-col-md-4-col-xs-1-col-lg-2-in-bootstrap
+
+
+***replace all javascript:
+	http://stackoverflow.com/questions/1144783/replacing-all-occurrences-of-a-string-in-javascript
+
+
+
+
+
