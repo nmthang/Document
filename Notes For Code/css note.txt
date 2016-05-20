@@ -48,7 +48,21 @@ text-shadow:5px 5px #FF0000; //tao bong cho chu.
 ***replace all javascript:
 	http://stackoverflow.com/questions/1144783/replacing-all-occurrences-of-a-string-in-javascript
 
-
+Tools:
+	jQuey UI:	https://jqueryui.com/
+			http://api.jqueryui.com/datepicker/
+			http://labs.abeautifulsite.net/archived/jquery-alerts/
+			http://mobiscroll.com
+			
+C# MVC pass data from controller to view:
+	https://bubblogging.wordpress.com/2011/12/31/mvc-data-controller-view/
+		ViewData["Name"]
+		ViewBag.Name
+		TempData["Name"]	//only this way survive when redirect to another controller
+		
+	http://www.c-sharpcorner.com/UploadFile/rohatash/options-for-passing-data-between-controller-to-view-in-mvc3/
+	
+			 
 
 
 
