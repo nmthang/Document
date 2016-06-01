@@ -56,6 +56,9 @@ jquery
 
 ***$('input:checked')
 
+***check checkbox is checked or not: 
+	$('#id').is(':checked')
+
 *** Get index of clicked li:
 	function myFunc(){
 				$('li').click(function(){
@@ -87,6 +90,7 @@ jquery
 	console.log(index);
 })
 ***$(obj).parent()
+***$('#id').closest('ul')
 
 ***find():
 	 var name = $(this).find("p:nth-child(2)");	//p tag second child
@@ -108,4 +112,14 @@ jquery
 	
 *** 
 	http://ckeditor.com/download
+	
+***Tools
+	- http://json.parser.online.fr/
+	- http://www.dpriver.com/pp/sqlformat.htm
+	
+	
+	
+	
+	
+	
 	
