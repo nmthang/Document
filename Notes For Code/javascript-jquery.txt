@@ -59,6 +59,9 @@ jquery
 ***check checkbox is checked or not: 
 	$('#id').is(':checked')
 
+*** jquery check visible:
+	$(id).is(":visible")
+
 *** Get index of clicked li:
 	function myFunc(){
 				$('li').click(function(){
