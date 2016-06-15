@@ -54,6 +54,19 @@ Tools:
 			http://labs.abeautifulsite.net/archived/jquery-alerts/
 			http://mobiscroll.com
 			
+	date-picker: refer http://api.jqueryui.com/datepicker/
+		$( "#datepicker" ).datepicker({		
+		showAnim: "slideDown",
+		showOtherMonths: true,
+		selectOtherMonths: true,
+		dateFormat: 'dd/mm/yy',
+		changeMonth: true,
+		changeYear: true,
+		yearRange: "c-100:c",
+		defaultDate: "-25y"
+		});
+		$.datepicker.setDefaults( $.datepicker.regional[ "vi" ] );
+			
 C# MVC pass data from controller to view:
 	https://bubblogging.wordpress.com/2011/12/31/mvc-data-controller-view/
 		ViewData["Name"]
