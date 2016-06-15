@@ -1,5 +1,0 @@
-Link 1: http://www.wikihow.com/Configure-XDebug-in-XAMPP-%281.7.2/Later%29-on-Windows
-Link 2: http://forums.devnetwork.net/viewtopic.php?f=31&t=119699
-Link 3: http://vinothkumarp.wordpress.com/2010/05/24/configure-eclipse-pdt-with-zenddebug-and-xampp/
-1/ Open php.ini
-Find: xdebug.remote_host and uncomment
