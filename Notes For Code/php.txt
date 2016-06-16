@@ -13,3 +13,23 @@
     
   http://apple.stackexchange.com/questions/68836/where-can-i-download-safari-for-windows
   https://wordpress.org/plugins/users-ultra/
+  
+  
+3/ Laravel:
+  Route: 
+        Route::match(['get'],'/user/login', 'UserController@index');
+        Route::any('foo', function () {
+            //
+        });
+        
+  Middleware:
+      Authentication: https://laravel.com/docs/5.1/authentication
+      
+      //Get base url in view
+      {{URL::to('/user/logout')}}
+      
+      // Vanilla PHP
+      <?php echo csrf_field(); ?>
+      
+      // Blade Template Syntax
+      {{ csrf_field() }}
