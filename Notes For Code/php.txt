@@ -24,6 +24,7 @@
         
   Middleware:
       Authentication: https://laravel.com/docs/5.1/authentication
+      Run command line: php artisan make:auth 
       
       //Get base url in view
       {{URL::to('/user/logout')}}
@@ -33,3 +34,49 @@
       
       // Blade Template Syntax
       {{ csrf_field() }}
+      
+      
+      
+  Model: 
+      https://laravel.com/docs/5.1/eloquent#eloquent-model-conventions
+      https://laravel.com/docs/5.1/queries
+      Create model: 
+        1/ php artisan make:model Flight 
+            + table name:  `flights`
+              indicate tabele: protected $table = 'my_flights';
+            + primaryKey:
+              default: id
+              specific: protected $primaryKey = 'my_id';
+              
+            + Timestamps: column created_at, updated_at
+              public $timestamps = false;
+              
+            + Function:
+                - $count = App\Flight::where('active', 1)->count();
+                
+            + Create new record:
+                  $flight = new Flight;
+                  $flight->name = $request->name;
+                  $flight->save();
+                  
+            + Update:
+                - Mutiple records:
+                    App\Flight::where('active', 1)
+                                ->where('destination', 'San Diego')
+                                ->update(['delayed' => 1]);
+                                
+            + Fillable & guarded:
+                - protected $fillable = ['name'];
+                - protected $guarded = ['price'];
+                    --> all attributes except for price will be mass assignable.
+            
+                
+            
+      
+      
+      
+      
+      
+      
+      
+      
