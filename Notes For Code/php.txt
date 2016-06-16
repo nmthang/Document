@@ -25,6 +25,7 @@
   Store uploaded files:
       https://www.quora.com/Where-is-the-best-place-to-store-uploaded-files-in-Laravel
       https://gist.github.com/Sentences/3945396
+      https://www.codetutorial.io/laravel-5-file-upload-storage-download/
         
   Middleware:
       Authentication: https://laravel.com/docs/5.1/authentication
