@@ -22,6 +22,10 @@
             //
         });
         
+  Store uploaded files:
+      https://www.quora.com/Where-is-the-best-place-to-store-uploaded-files-in-Laravel
+      https://gist.github.com/Sentences/3945396
+        
   Middleware:
       Authentication: https://laravel.com/docs/5.1/authentication
       Run command line: php artisan make:auth 
@@ -69,6 +73,28 @@
                 - protected $fillable = ['name'];
                 - protected $guarded = ['price'];
                     --> all attributes except for price will be mass assignable.
+                    
+            + Delete:
+                - Retreive and delete:
+                    $flight = App\Flight::find(1);
+                    $flight->delete();
+                    
+                - Delete by key
+                    App\Flight::destroy(1);
+                    App\Flight::destroy([1, 2, 3]);
+                    
+                - Delete by query:
+                    $deletedRows = App\Flight::where('active', 0)->delete();
+                    
+            + Query Scopes
+                - Define:
+                    - prefix an Eloquent model method with `scope`
+                        public function scopeOfType($query, $type)
+                        {
+                            return $query->where('type', $type);
+                        }
+                    - call scope method
+                        $users = App\User::ofType('admin')->get();
             
                 
             
