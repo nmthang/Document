@@ -103,7 +103,8 @@
         $dns = 'mysql:host=localhost;port=3307;dbname=demo-laravel';
         $pdo = new PDO($dns, 'root', '');
         $pdo->exec('set names utf8');
-	      $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+	$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+	
 	   - Select:
 	      - must be call: $stt->fetchAll()
 	      - get count: $stt->fetchColumn() / $stt->rowCount()
@@ -117,6 +118,16 @@
   	      $pdo->beginTransaction();
   	      $pdo->commit();
   	      $pdo->rollback();
+  	    
+  - SQL select user contains digit
+  
+  	SELECT * 
+	FROM users
+	WHERE 
+		`name` LIKE '2'
+		OR `name` LIKE '%,2,%'
+		OR `name`  LIKE '2,%'
+		OR `name`  LIKE '%,2'
 	      
 	      
 	      
