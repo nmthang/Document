@@ -98,8 +98,29 @@
                         $users = App\User::ofType('admin')->get();
             
                 
-            
-      
+4/ PDO class: refer: http://php.net/manual/en/class.pdo.php
+     - Create: 
+        $dns = 'mysql:host=localhost;port=3307;dbname=demo-laravel';
+        $pdo = new PDO($dns, 'root', '');
+        $pdo->exec('set names utf8');
+	      $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+	   - Select:
+	      - must be call: $stt->fetchAll()
+	      - get count: $stt->fetchColumn() / $stt->rowCount()
+	   
+	   - Update/insert:
+	      - NOT need call: fetchAll()
+	      - get affected rows: $stt->rowCount()
+	        
+	   
+	   - Transaction:
+  	      $pdo->beginTransaction();
+  	      $pdo->commit();
+  	      $pdo->rollback();
+	      
+	      
+	      
+	      
       
       
       
