@@ -129,7 +129,8 @@
 		OR `name`  LIKE '2,%'
 		OR `name`  LIKE '%,2'
 - Get next Sunday:	http://stackoverflow.com/questions/4293174/grab-all-wednesdays-in-a-given-month-in-php
-	
+- XAMP: xampp-win32-1.8.3-4-VC11-installer.exe
+	https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/1.8.3/
 	      
 	      
 	      
