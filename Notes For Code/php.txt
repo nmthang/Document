@@ -133,7 +133,24 @@
 	https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/1.8.3/
 	org.zend.php.debug.debugger.win32.x86_5.3.18.v20100603\resources\php5
 	      
-	      
+[XDebug]
+zend_extension="C:\xampp\php\ext\php_xdebug.dll"
+xdebug.remote_host='127.0.0.1'
+xdebug.remote_enable=1
+xdebug.remote_handler="dbgp"
+xdebug.remote_port=9000 
+
+Eclipse:
+	Eclipse for PHP Developers
+	
+	Version: Helios Release
+	Build id: 20100617-1415
+	
+	(c) Copyright Eclipse contributors and others 2000, 2010.  All rights reserved.
+	Visit http://eclipse.org/
+	
+	This product includes software developed by the
+	Apache Software Foundation http://apache.org/
 	      
 	      
       
