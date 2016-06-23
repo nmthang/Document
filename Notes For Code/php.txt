@@ -172,6 +172,9 @@ File upload:
 	<% Response.ContentType = "text/plain" %> 
 	<% Response.ContentType = "image/JPEG" %> 
 	
+Laravel:
+	- get last_insert_id: $lastId = DB::getPdo()->lastInsertId();
+	
 
 	      
       
