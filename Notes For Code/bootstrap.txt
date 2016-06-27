@@ -1,3 +1,6 @@
 - Navigation bar responsive:
     - http://www.bootply.com/98314
     - http://www.bootply.com/92472
+
+- Tabs
+    - refer: http://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_tabs_dynamic&stacked=h
