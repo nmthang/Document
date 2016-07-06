@@ -120,6 +120,8 @@ jquery
 	- http://json.parser.online.fr/
 	- http://www.dpriver.com/pp/sqlformat.htm
 	
+Javascript library:
+	- Table sorter: http://tablesorter.com/docs/
 	
 	
 	
